@@ -25,11 +25,6 @@
                       <member>You have attempted to access a protected resource that requires additional authentication. Proceed to authenticate at</member>
                     </value>
                   </entry>
-                  <entry name="ipv6-preferred">
-                    <value>
-                      <member>no</member>
-                    </value>
-                  </entry>
                 </config>
               </gp-app-config>
             </entry>
