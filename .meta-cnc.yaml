@@ -1,6 +1,6 @@
 
 name: modify_gp_agent_config_rest
-label: 7b. Modify the GobalProtect Agent configuration-rest
+label: 7. Modify the GobalProtect Agent configuration-rest
 
 description: Modify the GlobalProtect agent configuration to support authentication policy.
 
