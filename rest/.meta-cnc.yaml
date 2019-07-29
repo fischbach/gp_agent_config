@@ -53,7 +53,7 @@ snippets:
     path: https://{{ TARGET_IP }}/api/?type=config&action=edit&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='{{ portal_name }}']/client-config/configs/entry[@name='{{ config_name }}']/gp-app-config/config/entry[@name='mfa-enabled']&element=<entry name="mfa-enabled"><value><member>yes</member></value></entry>&key={{ api_key }}
     output_type: xml
   - name: mfa-gateways
-    path: path: https://{{ TARGET_IP }}/api/?type=config&action=edit&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='{{ portal_name }}']/client-config/configs/entry[@name='{{ config_name }}']/gp-app-config/config/entry[@name='mfa-trusted-host-list']&element=<entry name="mfa-trusted-host-list"><value><member>{{ trusted-mfa-gateways }}</member></value></entry>&key={{ api_key }}
+    path: https://{{ TARGET_IP }}/api/?type=config&action=edit&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='{{ portal_name }}']/client-config/configs/entry[@name='{{ config_name }}']/gp-app-config/config/entry[@name='mfa-trusted-host-list']&element=<entry name="mfa-trusted-host-list"><value><member>{{ trusted-mfa-gateways }}</member></value></entry>&key={{ api_key }}
     output_type: xml
     #outputs:
     #  - name: profileName
