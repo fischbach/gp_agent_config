@@ -28,5 +28,5 @@ variables:
 
 snippets:
     - name: captive_portal
-      xpath: /client-config/configs/entry[@name='Pre-logon_User']/gp-app-config/config
+      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='Portal-1']/client-config/configs/entry[@name='Pre-logon_User']/gp-app-config/config
       file: 0-modify-agent.xml
