@@ -13,6 +13,10 @@ labels:
     - X509 Certificates
 
 variables:
+  - name: portal_name
+    description: Name of the portal
+    default: Portal-1
+    type_hint: text
   - name: config_name
     description: name of the agent configuration
     default: default_agent_config

@@ -1,213 +1,23 @@
  <global-protect-portal>
-<entry name="Portal-1">
+<entry name="{{ portal_name }}">
         <client-config>
           <configs>
-            <entry name="Pre-logon_User">
+            <entry name="{{ config_name }}">
               <gp-app-config>
                 <config>
-                  <entry name="connect-method">
-                    <value>
-                      <member>pre-logon</member>
-                    </value>
-                  </entry>
-                  <entry name="refresh-config-interval">
-                    <value>
-                      <member>24</member>
-                    </value>
-                  </entry>
-                  <entry name="agent-user-override">
-                    <value>
-                      <member>allowed</member>
-                    </value>
-                  </entry>
-                  <entry name="client-upgrade">
-                    <value>
-                      <member>prompt</member>
-                    </value>
-                  </entry>
-                  <entry name="use-sso">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="logout-remove-sso">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="krb-auth-fail-fallback">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="retry-tunnel">
-                    <value>
-                      <member>30</member>
-                    </value>
-                  </entry>
-                  <entry name="retry-timeout">
-                    <value>
-                      <member>5</member>
-                    </value>
-                  </entry>
-                  <entry name="enforce-globalprotect">
-                    <value>
-                      <member>no</member>
-                    </value>
-                  </entry>
-                  <entry name="captive-portal-exception-timeout">
-                    <value>
-                      <member>0</member>
-                    </value>
-                  </entry>
-                  <entry name="traffic-blocking-notification-delay">
-                    <value>
-                      <member>15</member>
-                    </value>
-                  </entry>
-                  <entry name="display-traffic-blocking-notification-msg">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="traffic-blocking-notification-msg">
-                    <value>
-                      <member>&lt;div style="font-family:'Helvetica Neue';"&gt;&lt;h1 style="color:red;text-align:center; margin: 0; font-size: 30px;"&gt;Notice&lt;/h1&gt;&lt;p style="margin: 0;font-size: 15px; line-height: 1.2em;"&gt;To access the network, you must first connect to GlobalProtect.&lt;/p&gt;&lt;/div&gt;</member>
-                    </value>
-                  </entry>
-                  <entry name="allow-traffic-blocking-notification-dismissal">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="display-captive-portal-detection-msg">
-                    <value>
-                      <member>no</member>
-                    </value>
-                  </entry>
-                  <entry name="captive-portal-detection-msg">
-                    <value>
-                      <member>&lt;div style="font-family:'Helvetica Neue';"&gt;&lt;h1 style="color:red;text-align:center; margin: 0; font-size: 30px;"&gt;Captive Portal Detected&lt;/h1&gt;&lt;p style="margin: 0; font-size: 15px; line-height: 1.2em;"&gt;GlobalProtect has temporarily permitted network access for you to connect to the Internet. Follow instructions from your internet provider.&lt;/p&gt;&lt;p style="margin: 0; font-size: 15px; line-height: 1.2em;"&gt;If you let the connection time out, open GlobalProtect and click Connect to try again.&lt;/p&gt;&lt;/div&gt;</member>
-                    </value>
-                  </entry>
-                  <entry name="certificate-store-lookup">
-                    <value>
-                      <member>user-and-machine</member>
-                    </value>
-                  </entry>
-                  <entry name="scep-certificate-renewal-period">
-                    <value>
-                      <member>7</member>
-                    </value>
-                  </entry>
-                  <entry name="retain-connection-smartcard-removal">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="enable-advanced-view">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="enable-do-not-display-this-welcome-page-again">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="rediscover-network">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="resubmit-host-info">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="can-change-portal">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="can-continue-if-portal-cert-invalid">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="show-agent-icon">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="user-switch-tunnel-rename-timeout">
-                    <value>
-                      <member>0</member>
-                    </value>
-                  </entry>
-                  <entry name="pre-logon-tunnel-rename-timeout">
-                    <value>
-                      <member>0</member>
-                    </value>
-                  </entry>
-                  <entry name="show-system-tray-notifications">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="max-internal-gateway-connection-attempts">
-                    <value>
-                      <member>0</member>
-                    </value>
-                  </entry>
-                  <entry name="portal-timeout">
-                    <value>
-                      <member>30</member>
-                    </value>
-                  </entry>
-                  <entry name="connect-timeout">
-                    <value>
-                      <member>60</member>
-                    </value>
-                  </entry>
-                  <entry name="receive-timeout">
-                    <value>
-                      <member>30</member>
-                    </value>
-                  </entry>
-                  <entry name="enforce-dns">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
-                  <entry name="flush-dns">
-                    <value>
-                      <member>no</member>
-                    </value>
-                  </entry>
-                  <entry name="proxy-multiple-autodetect">
-                    <value>
-                      <member>no</member>
-                    </value>
-                  </entry>
-                  <entry name="wsc-autodetect">
-                    <value>
-                      <member>yes</member>
-                    </value>
-                  </entry>
                   <entry name="mfa-enabled">
                     <value>
-                      <member>no</member>
+                      <member>yes</member>
                     </value>
                   </entry>
                   <entry name="mfa-listening-port">
                     <value>
-                      <member>4501</member>
+                      <member>{{ udp_port }}</member>
                     </value>
                   </entry>
                   <entry name="mfa-trusted-host-list">
                     <value>
-                      <member>1.1.1.1</member>
+                      <member>{{ trusted_mfa_gateways }}</member>
                     </value>
                   </entry>
                   <entry name="mfa-notification-msg">
@@ -217,17 +27,11 @@
                   </entry>
                   <entry name="ipv6-preferred">
                     <value>
-                      <member>yes</member>
+                      <member>no</member>
                     </value>
                   </entry>
                 </config>
               </gp-app-config>
-              <save-user-credentials>0</save-user-credentials>
-              <portal-2fa>no</portal-2fa>
-              <manual-only-gateway-2fa>no</manual-only-gateway-2fa>
-              <internal-gateway-2fa>no</internal-gateway-2fa>
-              <auto-discovery-external-gateway-2fa>no</auto-discovery-external-gateway-2fa>
-              <mdm-enrollment-port>443</mdm-enrollment-port>
             </entry>
           </configs>
         </client-config>
