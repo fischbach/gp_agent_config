@@ -13,20 +13,20 @@ labels:
     - X509 Certificates
 
 variables:
-  - name: redirect_host_ip
-    description: Redirect host IP address
-    default: 192.168.55.20
-    type_hint: ip_address
-  - name: ssl_tls_service_profile
-    description: Name of the SSL/TLS service profile
-    default: cp-ssl-tls-service-profile
+  - name: config_name
+    description: name of the agent configuration
+    default: default_agent_config
     type_hint: text
-  - name: auth_profile_name
-    description: radius auth profile created earlier
-    default: Duo_auth_profile
+  - name: udp_port
+    description: Network Port for Inbound Authentication Prompts (UDP) Change only if necessary.
+    default: 4501
+    type_hint: text
+  - name: trusted_mfa_gateways
+    description: Trusted MFA Gateway(s)
+    default: 192.168.45.20
     type_hint: text
 
 snippets:
     - name: captive_portal
-      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/captive-portal
+      xpath: /client-config/configs/entry[@name='{{ config_name }}']/gp-app-config/config
       file: 0-modify-agent.xml

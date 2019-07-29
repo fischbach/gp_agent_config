@@ -1,6 +1,21 @@
-<timer>30</timer>
-      <mode><redirect/></mode>
-      <redirect-host>{{ redirect_host_ip }}</redirect-host>
-      <enable-captive-portal>yes</enable-captive-portal>
-      <ssl-tls-service-profile>{{ ssl_tls_service_profile }}</ssl-tls-service-profile>
-      <authentication-profile>{{ auth_profile_name }}</authentication-profile>
+ </entry>
+      <entry name="mfa-enabled">
+        <value>
+          <member>yes</member>
+        </value>
+      </entry>
+      <entry name="mfa-listening-port">
+        <value>
+          <member>{{ udp_port }}</member>
+        </value>
+      </entry>
+      <entry name="mfa-trusted-host-list">
+        <value>
+          <member>{{ trusted_mfa_gateways }}</member>
+        </value>
+      </entry>
+      <entry name="mfa-notification-msg">
+        <value>
+          <member>gp_msg: You have attempted to access a protected resource that requires additional authentication. Proceed to authenticate at</member>
+        </value>
+      </entry>
