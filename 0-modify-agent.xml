@@ -1,0 +1,6 @@
+<timer>30</timer>
+      <mode><redirect/></mode>
+      <redirect-host>{{ redirect_host_ip }}</redirect-host>
+      <enable-captive-portal>yes</enable-captive-portal>
+      <ssl-tls-service-profile>{{ ssl_tls_service_profile }}</ssl-tls-service-profile>
+      <authentication-profile>{{ auth_profile_name }}</authentication-profile>

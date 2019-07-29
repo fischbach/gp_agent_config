@@ -1,0 +1,32 @@
+
+name: modify_gp_agent_config
+label: 7. Modify the GobalProtect Agent configuration
+
+description: Modify the GlobalProtect agent configuration to support authentication policy.
+
+extends:
+
+type: panos
+
+labels:
+  collection:
+    - X509 Certificates
+
+variables:
+  - name: redirect_host_ip
+    description: Redirect host IP address
+    default: 192.168.55.20
+    type_hint: ip_address
+  - name: ssl_tls_service_profile
+    description: Name of the SSL/TLS service profile
+    default: cp-ssl-tls-service-profile
+    type_hint: text
+  - name: auth_profile_name
+    description: radius auth profile created earlier
+    default: Duo_auth_profile
+    type_hint: text
+
+snippets:
+    - name: captive_portal
+      xpath: /config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/captive-portal
+      file: 0-modify-agent.xml
