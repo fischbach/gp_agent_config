@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252100ad-9fb4-47c4-ac81-f69f4a01423d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.meta-cnc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.meta-cnc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-modify-agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-modify-agent.xml" afterDir="false" />
-    </list>
+    <list default="true" id="252100ad-9fb4-47c4-ac81-f69f4a01423d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="128" selection-start-line="30" selection-start-column="128" selection-end-line="30" selection-end-column="128" />
+            <state relative-caret-position="465">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -35,14 +32,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.meta-cnc.yaml" />
         <option value="$PROJECT_DIR$/0-modify-agent.xml" />
+        <option value="$PROJECT_DIR$/.meta-cnc.yaml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-2560" />
-    <option name="width" value="1323" />
+    <option name="width" value="2045" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -266,18 +263,18 @@
       <updated>1564409207900</updated>
       <workItem from="1564409209265" duration="303000" />
       <workItem from="1564409518433" duration="19000" />
-      <workItem from="1564409555615" duration="2387000" />
+      <workItem from="1564409555615" duration="2739000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2709000" />
+    <option name="totallyTimeSpent" value="3061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="0" width="1323" height="1066" extended-state="0" />
+    <frame x="-2560" y="0" width="2045" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25761124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16475287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.meta-cnc.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="128" selection-start-line="30" selection-start-column="128" selection-end-line="30" selection-end-column="128" />
+        <state relative-caret-position="465">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,4 @@
 
-</entry>
       <entry name="mfa-enabled">
         <value>
           <member>yes</member>
@@ -19,4 +18,3 @@
         <value>
           <member>gp_msg: You have attempted to access a protected resource that requires additional authentication. Proceed to authenticate at</member>
         </value>
-      </entry>
