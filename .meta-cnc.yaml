@@ -28,5 +28,5 @@ variables:
 
 snippets:
     - name: captive_portal
-      xpath: /client-config/configs/entry[@name='{{ config_name }}']/gp-app-config/config
+      xpath: /client-config/configs/entry[@name='Pre-logon_User']/gp-app-config/config
       file: 0-modify-agent.xml

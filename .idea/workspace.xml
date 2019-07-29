@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="252100ad-9fb4-47c4-ac81-f69f4a01423d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.meta-cnc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.meta-cnc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0-modify-agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0-modify-agent.xml" afterDir="false" />
-    </list>
+    <list default="true" id="252100ad-9fb4-47c4-ac81-f69f4a01423d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,16 +267,15 @@
       <updated>1564409207900</updated>
       <workItem from="1564409209265" duration="303000" />
       <workItem from="1564409518433" duration="19000" />
-      <workItem from="1564409555615" duration="1177000" />
+      <workItem from="1564409555615" duration="1674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1499000" />
+    <option name="totallyTimeSpent" value="1996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="0" width="1323" height="1066" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25761124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
