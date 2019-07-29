@@ -50,8 +50,7 @@ snippets:
       - name: api_key
         capture_pattern: result/key
   - name: pre-logon_rule
-    path: https://{{ TARGET_IP }}/api/?type=config&action=edit&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='Portal-1']/client-config/configs/entry[@name='Pr
-        e-logon_User']/gp-app-config/config/entry[@name='mfa-enabled']&element=<entry name="mfa-enabled"><value><member>yes</member></value></entry>&key={{ api_key }}
+    path: https://{{ TARGET_IP }}/api/?type=config&action=edit&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='Portal-1']/client-config/configs/entry[@name='Pre-logon_User']/gp-app-config/config/entry[@name='mfa-enabled']&element=<entry name="mfa-enabled"><value><member>yes</member></value></entry>&key={{ api_key }}
 #path: https://{{ TARGET_IP }}/api/?type=config&action=edit&xpath=/config/devices/entry[@name='localhost.localdomain']/vsys/entry[@name='vsys1']/global-protect/global-protect-portal/entry[@name='Portal-1']/client-config/configs/entry[@name='Pr
     #      e-logon_User']/gp-app-config/config/entry[@name='mfa-enabled']/value&element=<value><member>yes</member></value>&key={{ api_key }}
     output_type: xml
